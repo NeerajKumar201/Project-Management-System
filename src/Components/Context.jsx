@@ -6,7 +6,9 @@ export const DataContext = createContext();
 const initialState={
     data : [{sno:1,name: 'Gangadhar',status:'Start',description:'Database Management',endtime:'2022-08-10' },
             {sno:2,name: 'Teja',status:'InProgress',description:'Front End',endtime:'2022-08-10' },
-            {sno:3,name: 'Neeraj Kumar',status:'End',description:'Backend',endtime:'2022-08-10' }],
+            {sno:3,name: 'Neeraj Kumar',status:'End',description:'Backend',endtime:'2022-08-10' },
+            {sno:5,name: 'Nithin',status:'Start',description:'Human Resource',endtime:'2022-08-10' }
+        ],
     loading:true,
 }
 
