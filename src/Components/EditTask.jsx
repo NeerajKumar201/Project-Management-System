@@ -1,8 +1,8 @@
-import React, { useContext, useState } from 'react'
-import { DataContext } from './Context'
+import React, {  useState } from 'react'
+//import { DataContext } from './Context'
 
 function EditTask({setIsShow2}) {
-    const {data,setData} = useContext(DataContext)
+   // const {data,setData} = useContext(DataContext)
     const [status1,setStatus1] = useState("")
     const [sno1,setSno1] = useState("")
     const submitHandler=(e)=>{
